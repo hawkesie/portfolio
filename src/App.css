@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App{
   background-color: #282c34;
-  min-height: 100vh;
+}
+
+h1{
+  color: #fafafa;
+  font-size: 40px;
+  margin: 0px;
+}
+
+h3{
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+p{
+  margin: 0px;
+  font-size: 18px;
+}
+
+.main-container{
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+  padding: 4rem;
+  padding-top: 2rem;
+}
+
+.inner-container{
+  width: 100%;
+  
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to right, gold, darkorchid) 1;
+  border-radius: 30px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-img-container img{
+  border-radius: 50%;
+  width: 250px;
+}
+
+.header-container{
+  /* padding: 2rem 4rem; */
+  display: flex;
+  background-color: #282c34;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.header-text-container{
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header-container p{
+  margin: 5px;
+  max-width: 580px;
+}
+
+.my-sites-main-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.my-sites-main-container h3, .my-sites-main-container p{
+  color: #fafafa;
+}
+
+.my-sites-main-container h3{
+  font-size: 30px;
+}
+
+.my-sites-heading-container{
+  margin-bottom: 20px;
+}
+
+.my-sites-site-container{
+  margin-bottom: 30px;
+}
+
+.my-sites-site-container a{
+  font-size: 20px;
+}
+
+.my-sites-sites{
+  display: flex;
+}
+
+.my-sites-site-description{
+  width: 500px;
+}
+
+.my-sites-site-container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.my-sites-site-image-container{
+  margin-bottom: 10px;
+}
+
+.my-sites-site-image-container img{
+  width: 500px;
+  border-radius: 20px;
 }
