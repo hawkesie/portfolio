@@ -21,13 +21,13 @@ const MySites = () => {
 
                 <a href='https://main.d1t87ixh50zlnh.amplifyapp.com/' target="_blank" className='my-sites-site-image-container'>
                     <img src={StaxyImg}  alt='staxy' />
+                    <div className='my-sites-hover-text'>
+                        <h4>Visit Site</h4>
+                    </div>
                 </a>
 
                 <div className='my-sites-site-description'>
                     <p>I was hired to build this as a prototype for a gaming site that would have been similar to Hypedrop.com. </p>
-                </div>
-                <div className='my-sites-site-link-container'>
-                    <a href='https://main.d1t87ixh50zlnh.amplifyapp.com/' target="_blank">Link</a>
                 </div>
 
             </div>
@@ -39,13 +39,13 @@ const MySites = () => {
 
                 <a href='https://main.d332phldntddfe.amplifyapp.com/' target="_blank" className='my-sites-site-image-container'>
                     <img src={GeishaImg}  alt='staxy' />
+                    <div className='my-sites-hover-text'>
+                        <h4>Visit Site</h4>
+                    </div>
                 </a>
 
                 <div className='my-sites-site-description'>
                     <p>This was a landing page for a potential NFT Project.</p>
-                </div>
-                <div className='my-sites-site-link-container'>
-                    <a href='https://main.d332phldntddfe.amplifyapp.com/' target="_blank">Link</a>
                 </div>
             </div>
 
@@ -54,23 +54,23 @@ const MySites = () => {
                     <h3>Lucky Shogun</h3>
                 </div>
 
-                <div className='my-sites-site-image-container'>
+                <div className='my-sites-site-image-slide'>
                     <img src={LsNft}  alt='staxy' />
                 </div>
 
-                <div className='my-sites-site-image-container'>
+                <div className='my-sites-site-image-slide'>
                     <img src={LsAcc}  alt='staxy' />
                 </div>
 
-                <div className='my-sites-site-image-container'>
+                <div className='my-sites-site-image-slide'>
                     <img src={LsShowdown}  alt='staxy' />
                 </div>
 
-                <div className='my-sites-site-image-container'>
+                <div className='my-sites-site-image-slide'>
                     <img src={LsWallet}  alt='staxy' />
                 </div>
 
-                <div className='my-sites-site-image-container'>
+                <div className='my-sites-site-image-slide'>
                     <img src={LsLdb}  alt='staxy' />
                 </div>
 
