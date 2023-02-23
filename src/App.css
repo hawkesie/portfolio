@@ -10,8 +10,10 @@ h1{
 }
 
 h3{
+  color: #fafafa;
   margin: 0px;
   margin-bottom: 10px;
+  font-size: 30px;
 }
 
 p{
@@ -52,10 +54,16 @@ p{
 .header-container{
   /* padding: 2rem 4rem; */
   display: flex;
+  flex-direction: column;
   background-color: #282c34;
   color: #fff;
   width: 100%;
   margin-bottom: 1rem;
+}
+
+.header-top-row{
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .header-text-container{
@@ -70,6 +78,21 @@ p{
   max-width: 580px;
 }
 
+.header-git-history-image-container img{
+  width: 400px;
+  border-radius: 20px;
+}
+
+.header-my-links a{
+  margin-right: 10px;
+}
+
+.header-my-links a img{
+  width: 50px;
+}
+
+
+
 .my-sites-main-container{
   display: flex;
   flex-direction: column;
@@ -78,10 +101,6 @@ p{
 
 .my-sites-main-container h3, .my-sites-main-container p{
   color: #fafafa;
-}
-
-.my-sites-main-container h3{
-  font-size: 30px;
 }
 
 .my-sites-heading-container{
@@ -98,6 +117,7 @@ p{
 
 .my-sites-sites{
   display: flex;
+  flex-direction: column;
 }
 
 .my-sites-site-description{
@@ -115,6 +135,31 @@ p{
 }
 
 .my-sites-site-image-container img{
+  width: 500px;
+  border-radius: 20px;
+}
+
+.my-gits-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.my-gits-container h3{
+  color: #fafafa;
+}
+
+.my-gits-links a{
+  
+}
+
+.my-gits-links a img{
+  width: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.my-gits-history-image-container img{
   width: 500px;
   border-radius: 20px;
 }
