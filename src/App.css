@@ -1,6 +1,6 @@
 
 .App{
-  background-color: #282c34;
+  background-color: #303030;
 }
 
 h1{
@@ -31,8 +31,7 @@ p{
   flex-direction: column;
   align-items: center;
   height: 100%;
-  padding: 4rem;
-  padding-top: 2rem;
+  padding: 0rem;
 }
 
 .inner-container{
@@ -59,7 +58,7 @@ p{
   /* padding: 2rem 4rem; */
   display: flex;
   flex-direction: column;
-  background-color: #282c34;
+  background-color:#596e79;
   color: #fff;
   width: 100%;
   margin-bottom: 1rem;
@@ -68,6 +67,7 @@ p{
 .header-top-row{
   display: flex;
   margin-bottom: 20px;
+  padding: 2rem;
 }
 
 .header-text-container{
@@ -110,29 +110,38 @@ p{
 
 .my-sites-heading-container{
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .my-sites-site-container{
-  margin-bottom: 30px;
+  display: flex;
+  margin-bottom: 50px;
+  flex-direction: row;
+  justify-content: center;
 }
+
+.my-sites-site-container a{
+}
+
 
 .my-sites-sites{
   display: flex;
   flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .my-sites-site-description{
   width: 500px;
-}
-
-.my-sites-site-container{
-  display: flex;
-  flex-direction: column;
-  flex: 1;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .my-sites-site-image-container{
-  width: 500px;
+  width: 700px;
   margin-bottom: 10px;
   position: relative;
   background-color: #fff;
@@ -184,6 +193,15 @@ p{
 
 .my-sites-site-image-container:hover .my-sites-hover-text{
   opacity: 1;
+}
+
+.my-sites-ls-container{
+  display: flex;
+  justify-content: center;
+}
+
+.my-sites-ls-images{
+  margin-right: 1rem;
 }
 
 .my-gits-container{
