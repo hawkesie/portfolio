@@ -46,7 +46,7 @@ const MySites = () => {
                         <h3>Geisha Widows</h3>
                     </div>
 
-                    <p>I was hired to build this landing page for a potential NFT Project. I worked with an amazing artist from the Phillippines helped me build this page. I love the art on this page, which is why I haven't compressed any of the images for optimization.</p>
+                    <p>I was hired to build this landing page for a potential NFT Project. I love the art on this page, which is why I haven't compressed any of the images for optimization.</p>
                 </div>
                 
             </div>

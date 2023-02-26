@@ -1,6 +1,6 @@
 
 .App{
-  background-color: #303030;
+  background-color: #333333;
 }
 
 h1{
@@ -58,7 +58,7 @@ p{
   /* padding: 2rem 4rem; */
   display: flex;
   flex-direction: column;
-  background-color:#596e79;
+  background-color:#000;
   color: #fff;
   width: 100%;
   margin-bottom: 1rem;
@@ -102,6 +102,7 @@ p{
   flex-direction: column;
   width: 100%;
   margin-bottom: 20px;
+  padding-top: 3rem;
 }
 
 .my-sites-main-container h3, .my-sites-main-container p{
@@ -109,7 +110,7 @@ p{
 }
 
 .my-sites-heading-container{
-  margin-bottom: 20px;
+  margin-bottom: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,7 +119,7 @@ p{
 
 .my-sites-site-container{
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 6rem;
   flex-direction: row;
   justify-content: center;
 }
