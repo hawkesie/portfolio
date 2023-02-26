@@ -27,7 +27,7 @@ const MySites = () => {
                 </a>
 
                 <div className='my-sites-site-description'>
-                    <p>I was hired to build this as a prototype for a gaming site that would have been similar to Hypedrop.com. </p>
+                    <p>I was hired to build this as a prototype for a mystery box site that would have been similar to Hypedrop.com. The project was put on hold after a few days which is why some pages are incomplete. The project never eventualized.</p>
                 </div>
 
             </div>
@@ -45,7 +45,7 @@ const MySites = () => {
                 </a>
 
                 <div className='my-sites-site-description'>
-                    <p>This was a landing page for a potential NFT Project.</p>
+                    <p>I was hired to build this landing page for a potential NFT Project. I worked with an amazing artist from the Phillippines helped me build this page. I love the art on this page, which is why I haven't compressed any of the images for optimization.</p>
                 </div>
             </div>
 

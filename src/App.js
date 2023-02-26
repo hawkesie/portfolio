@@ -24,6 +24,7 @@ import { useEffect, useRef, useState } from "react";
 import Header from './components/Header';
 import MySites from './components/MySites';
 import MyGits from './components/MyGits';
+import MyEducation from './components/MyEducation';
 
 // SwiperCore.use([EffectCoverflow, Pagination]);
 
@@ -40,6 +41,7 @@ function App() {
       <div className='main-container'>
         <Header />
         <MySites />
+        <MyEducation />
         <MyGits/>
         {/* <div className='inner-container'>
         <div className='my-swiper-container'>
