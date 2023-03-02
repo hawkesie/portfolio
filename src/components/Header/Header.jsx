@@ -1,5 +1,6 @@
 import React from 'react'
 import ProfPic from '../../images/profilepic.jpg'
+import HeaderBg from '../../images/headerbg.jpg'
 import './Header.css'
 
 
@@ -7,9 +8,9 @@ const Header = () => {
   return (
     <div className='header-container'>
         <div className='header-top-row'>
-            <div className='profile-img-container'>
+            {/* <div className='profile-img-container'>
                 <img src={ProfPic} />
-            </div>
+            </div> */}
 
             <div className='header-text-container'>
                 <h1>Hello, I'm Jordan</h1>

@@ -4,8 +4,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 20px;
     padding-top: 3rem;
+    background: linear-gradient(126deg, rgba(235,157,47,1) 9%, rgba(51,51,51,1) 48%);
   }
   
   .my-sites-main-container h3, .my-sites-main-container p{
@@ -102,4 +102,48 @@
   
   .my-sites-ls-images{
     margin-right: 1rem;
+  }
+
+  @media only screen and (max-width: 900px) {
+    .my-sites-site-container{
+      display: flex;
+      margin-bottom: 6rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .my-sites-site-image-container{
+      width: 100%;
+      margin-bottom: 1rem;
+      position: relative;
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 0;
+      cursor: pointer;
+      display: block;
+      height: auto;
+    }
+
+    .my-sites-sites{
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+
+    .my-sites-site-description{
+      width: 100%;
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+    
+
+  }
+
+  @media only screen and (max-width: 500px) {
+    .my-sites-sites{
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
   }

@@ -17,8 +17,9 @@ function App() {
       <div className='main-container'>
         <Header />
         <MySites />
+       
         <MyEducation />
-        <MyGits/>
+        {/*  <MyGits/> */}
 
         </div>
       </div>

@@ -34,7 +34,7 @@ const MySites = () => {
 
             </div>
 
-            <div className='my-sites-site-container' style={{flexDirection:"row-reverse"}}>
+            <div className='my-sites-site-container' >
 
                 <a href='https://main.d332phldntddfe.amplifyapp.com/' target="_blank" className='my-sites-site-image-container' >
                     <img src={GeishaImg}  alt='staxy' />
@@ -53,7 +53,7 @@ const MySites = () => {
                 
             </div>
 
-            <div className='my-sites-ls-container'>
+            {/* <div className='my-sites-ls-container'>
                 <div className='my-sites-ls-images'>
 
                     <div className='my-sites-site-image-slide'>
@@ -79,16 +79,15 @@ const MySites = () => {
                 </div>
                 
 
-                    <div className='my-sites-site-description'>
-                        <div className='my-sites-site-name'>
-                            <h3>Lucky Shogun</h3>
-                        </div>
-
-                        <p>I was the lead frontend developer for this online crypto casino for the past year. The company closed down with no warning at the end of 2022. I did almost all of the front-end development work on this website.</p>
+                <div className='my-sites-site-description'>
+                    <div className='my-sites-site-name'>
+                        <h3>Lucky Shogun</h3>
                     </div>
-
-
+                        <p>I was the lead frontend developer for this online crypto casino for the past year. The company closed down with no warning at the end of 2022. I did almost all of the front-end development work on this website.</p>
                 </div>
+
+
+            </div> */}
 
         </div>
     </div>
