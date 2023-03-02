@@ -104,6 +104,65 @@
     margin-right: 1rem;
   }
 
+  .my-sites-slideshow-container{
+    position: fixed;
+    background-color: rgba(51,51,51,0.8);
+    width: 100%;
+    height: 100%;
+    top: 0px;
+  }
+
+  .my-sites-slideshow-inner-container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .my-sites-button-container{
+    flex: 0.1;
+    width: 40px;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .my-sites-button-container img{
+    width: 40px;
+  }
+
+
+
+  .my-sites-slideshow-image-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .my-sites-slideshow-image-container img{
+    width: 100%;
+  }
+
+  .my-sites-slideshow-close-container{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+  }
+
+  .my-sites-slideshow-close-container img{
+    width: 40px;
+  }
+
+
+
+  
+
   @media only screen and (max-width: 900px) {
     .my-sites-site-container{
       display: flex;
