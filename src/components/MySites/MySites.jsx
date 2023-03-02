@@ -114,18 +114,18 @@ const MySites = () => {
 
         <div className='my-sites-slideshow-container'>
             <div className='my-sites-slideshow-inner-container'>
-                <div className='my-sites-button-container' onClick={previousSlide}>
-                    <img src={LeftArrow} alt='left-arrow' />
+                <div className='my-sites-button-container' >
+                    <img src={LeftArrow} alt='left-arrow' onClick={previousSlide}/>
                 </div>
                 <div className='my-sites-slideshow-image-container'>
                     <img src={slides[slideNumber]} alt='slideshow' />
                 </div>
-                <div className='my-sites-button-container' onClick={nextSlide}>
-                    <img src={RightArrow} alt='right-arrow' />
+                <div className='my-sites-button-container' >
+                    <img src={RightArrow} alt='right-arrow' onClick={nextSlide}/>
                 </div>
             </div>
-            <div className='my-sites-slideshow-close-container' onClick={toggleShowSlides}>
-                <img src={CloseIcon} alt='close' />
+            <div className='my-sites-slideshow-close-container'>
+                <img src={CloseIcon} alt='close'  onClick={toggleShowSlides}/>
             </div>
         </div>
         }

@@ -122,9 +122,6 @@
 
   .my-sites-button-container{
     flex: 0.1;
-    width: 40px;
-    height: 100%;
-    /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,6 +193,20 @@
       padding-right: 0rem;
     }
 
+
+    .my-sites-slideshow-inner-container{
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+    .my-sites-slideshow-close-container{
+      top: 10px;
+      right: 20px;
+    }
+
+    .my-sites-slideshow-close-container img{
+      width: 30px;
+    }
     
 
   }
