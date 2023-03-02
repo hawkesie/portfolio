@@ -1,11 +1,13 @@
 import React from 'react'
-import StaxyImg from '../images/wib/staxy-front.png';
-import GeishaImg from '../images/wib/geisha-front.png';
-import LsNft from '../images/ls/nft-page.png';
-import LsAcc from '../images/ls/account-page.png';
-import LsShowdown from '../images/ls/showdown-page.png';
-import LsWallet from '../images/ls/wallet-page.png';
-import LsLdb from '../images/ls/leaderboard-page.png';
+import './MySites.css';
+
+import StaxyImg from '../../images/wib/staxy-front.png';
+import GeishaImg from '../../images/wib/geisha-front.png';
+import LsNft from '../../images/ls/nft-page.png';
+import LsAcc from '../../images/ls/account-page.png';
+import LsShowdown from '../../images/ls/showdown-page.png';
+import LsWallet from '../../images/ls/wallet-page.png';
+import LsLdb from '../../images/ls/leaderboard-page.png';
 
 const MySites = () => {
   return (

@@ -1,5 +1,6 @@
 import React from 'react'
-import ProfPic from '../images/profilepic.jpg'
+import ProfPic from '../../images/profilepic.jpg'
+import './Header.css'
 
 
 const Header = () => {

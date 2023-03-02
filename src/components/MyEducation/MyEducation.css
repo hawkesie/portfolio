@@ -1,0 +1,24 @@
+
+.my-education-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .my-education-container h4{
+    color: #fafafa;
+  }
+  
+  .my-education-container span{
+    color: #fafafa;
+  }
+  
+  .my-education-image-container img{
+    width: 500px;
+    border-radius: 20px;
+  }
+  
+  .my-education-text-container{
+    margin-bottom: 20px;
+  }

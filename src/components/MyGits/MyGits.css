@@ -1,0 +1,22 @@
+
+
+.my-gits-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .my-gits-container h3{
+    color: #fafafa;
+  }
+  
+  .my-gits-links a img{
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .my-gits-history-image-container img{
+    width: 500px;
+    border-radius: 20px;
+  }

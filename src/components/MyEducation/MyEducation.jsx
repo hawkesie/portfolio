@@ -1,5 +1,6 @@
 import React from 'react'
-import CSDegree from '../images/CSdegree.jpg'
+import './MyEducation.css'
+import CSDegree from '../../images/CSdegree.jpg'
 
 const MyEducation = () => {
   return (

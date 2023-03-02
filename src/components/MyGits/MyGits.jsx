@@ -1,7 +1,8 @@
 import React from 'react'
-import GitLabHist from '../images/mygits/gitlab.png'
-import GitlabIcon from '../images/icons/gitlab.png';
-import GithubIcon from '../images/icons/github.png';
+import './MyGits.css'
+import GitLabHist from '../../images/mygits/gitlab.png'
+import GitlabIcon from '../../images/icons/gitlab.png';
+import GithubIcon from '../../images/icons/github.png';
 
 const MyGits = () => {
   return (
