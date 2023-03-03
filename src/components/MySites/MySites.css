@@ -39,6 +39,10 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  .my-sites-site-description p{
+    margin-bottom: 1rem;
+  }
   
   .my-sites-site-image-container{
     width: 700px;
@@ -157,6 +161,9 @@
     width: 40px;
   }
 
+  .my-sites-github-link a img{
+    width: 40px;
+  }
 
 
   
@@ -164,7 +171,7 @@
   @media only screen and (max-width: 900px) {
     .my-sites-site-container{
       display: flex;
-      margin-bottom: 6rem;
+      margin-bottom: 3rem;
       flex-direction: column;
       justify-content: center;
       align-items: center;

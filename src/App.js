@@ -18,7 +18,7 @@ function App() {
         <Header />
         <MySites />
        
-        {/* <MyEducation /> */}
+        <MyEducation />
         {/*  <MyGits/> */}
 
         </div>

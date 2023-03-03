@@ -8,9 +8,11 @@ import LsAcc from '../../images/ls/account-page.png';
 import LsShowdown from '../../images/ls/showdown-page.png';
 import LsWallet from '../../images/ls/wallet-page.png';
 import LsLdb from '../../images/ls/leaderboard-page.png';
+import LsFullNft from '../../images/ls/full-page-nft.png';
 import LeftArrow from '../../images/arrows/left-arrow.png';
 import RightArrow from '../../images/arrows/right-arrow.png';
 import CloseIcon from '../../images/arrows/close.png';
+import GithubIcon from '../../images/icons/github.png';
 
 const MySites = () => {
 
@@ -66,6 +68,11 @@ const MySites = () => {
                         <h3>Staxy</h3>
                     </div>
                     <p>I was hired to build this as a prototype for a mystery box site that would have been similar to Hypedrop.com. The project was put on hold after a few days which is why some pages are incomplete. The project never eventualized.</p>
+                    <div className='my-sites-github-link'>
+                        <a href='https://github.com/hawkesie/Staxy' target="_blank">
+                            <img src={GithubIcon} alt='github' />
+                        </a>
+                    </div>
                 </div>
 
             </div>
@@ -83,8 +90,12 @@ const MySites = () => {
                     <div className='my-sites-site-name'>
                         <h3>Geisha Widows</h3>
                     </div>
-
                     <p>I was hired to build this landing page for a potential NFT Project. I love the art on this page, which is why I haven't compressed any of the images for optimization.</p>
+                    <div className='my-sites-github-link'>
+                        <a href='https://github.com/hawkesie/Geishas' target="_blank" >
+                            <img src={GithubIcon} alt='github' />
+                        </a>
+                    </div>
                 </div>
                 
             </div>
