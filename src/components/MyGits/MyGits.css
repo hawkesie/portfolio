@@ -3,10 +3,10 @@
 .my-gits-container{
     display: flex;
     flex-direction: column;
-    width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 2rem;
+    align-items: center;
   }
   
   .my-gits-container h3{
