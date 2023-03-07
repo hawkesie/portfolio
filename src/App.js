@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import MySites from './components/MySites/MySites';
 import MyGits from './components/MyGits/MyGits';
 import MyEducation from './components/MyEducation/MyEducation';
-
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
        
         <MyEducation />
          <MyGits/>
-
+        <Contact />
         </div>
       </div>
   );
