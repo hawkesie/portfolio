@@ -1,0 +1,22 @@
+.navbar-container{
+    display: flex;
+}
+
+.navbar-container a{
+    color: #272727;
+    text-decoration: none;
+    margin-right: 10px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    opacity: 0.6;
+    z-index: 4;
+}
+
+.navbar-container a:first-child{
+    color: #F8CA13;
+    opacity: 1;
+}
