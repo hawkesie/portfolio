@@ -10,6 +10,7 @@ function App() {
     <div className="App">
       <div className='main-container'>
         <Header />
+        <div className='bottom'></div>
       </div>
     </div>
   );
