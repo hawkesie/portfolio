@@ -11,7 +11,7 @@ const ProjectsSlider = ({ currentProject, setCurrentProject}) => {
                     return (
                       <div className='projects-grid-item'>
                         <div className='projects-grid-item-image-container'>
-                            <img src={item.image} alt='image' onClick={() => setCurrentProject(index)}/>
+                            <img src={item.image} alt='image' onClick={() => setCurrentProject(index)} className={index===currentProject && 'projects-slider-current-project-img'}  />
                         </div>
                       </div>
                     )})}
