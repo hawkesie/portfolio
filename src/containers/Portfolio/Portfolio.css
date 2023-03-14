@@ -1,0 +1,15 @@
+.portfolio-container{
+    background: #272727;
+    padding-left: 7.8rem;
+    padding-right: 7.8rem;
+    padding-top: 2.25rem;
+    position: relative;
+}
+
+.portfolio-container h1{
+    color: #F8CA13;
+}
+
+.portfolio-container h4{
+    color: #fff;
+}
