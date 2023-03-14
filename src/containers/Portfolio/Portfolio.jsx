@@ -1,6 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
 import GeishaMain from '../../images/mysites/geisha-main.png';
+import ProjectsSlider from '../../components/ProjectsSlider/ProjectsSlider';
 
 const Portfolio = () => {
   return (
@@ -25,6 +26,8 @@ const Portfolio = () => {
             </div>
         </div>
         
+        <ProjectsSlider />
+
         </div>
         <div className='portfolio-background-container'>
           <img src={GeishaMain} alt='dots'/>

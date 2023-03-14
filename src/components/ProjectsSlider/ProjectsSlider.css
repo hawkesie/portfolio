@@ -1,0 +1,31 @@
+.projects-slider-container{
+    margin-top: 2rem;
+}
+
+.projects-slider-main-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+
+.projects-slider-container h3{
+    color: #fff;
+}
+
+.projects-grid-item{
+    width: 100%;
+}
+
+.projects-grid-item-image-container{
+    width: 100%;
+    height: 100%;
+}
+
+.projects-grid-item-image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
