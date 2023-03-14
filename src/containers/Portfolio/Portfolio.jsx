@@ -2,8 +2,13 @@ import React from 'react'
 import './Portfolio.css'
 import GeishaMain from '../../images/mysites/geisha-main.png';
 import ProjectsSlider from '../../components/ProjectsSlider/ProjectsSlider';
+import { useEffect, useRef, useState } from "react";
+import {imports} from '../../components/ProjectsSlider/imports';
 
 const Portfolio = () => {
+
+  const [currentProject, setCurrentProject] = useState(2);
+
   return (
     <div className='portfolio-container'>
         
@@ -15,22 +20,25 @@ const Portfolio = () => {
           </div>
           <div className='portfolio-main-container'>
               <div className='portfolio-main-left'>
-                  <h2>Geisha NFT</h2>
+                  <h2>{imports[currentProject].name}</h2>
                   <p>I was hired to build this landing page for a potential NFT Project. I love the art on this page, which is why I haven't...</p>
                   <button>View Project</button>
               </div>
               <div className='portfolio-main-right'>
                   <div className='portfolio-main-right-image-container'>
-                    <img src={GeishaMain} alt='main-img'/>
+                    <img src={imports[currentProject].image} alt='main-img'/>
                   </div>
             </div>
         </div>
         
-        <ProjectsSlider />
+        <ProjectsSlider 
+          currentProject={currentProject}
+          setCurrentProject={setCurrentProject}
+        />
 
         </div>
         <div className='portfolio-background-container'>
-          <img src={GeishaMain} alt='dots'/>
+          <img src={imports[currentProject].image} alt='dots'/>
         </div>
     </div>
   )
