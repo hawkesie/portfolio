@@ -1,7 +1,8 @@
 import React from 'react'
 import './Project.css'
 import {projectImports} from './projectImports';
-import ProjectsSlider from '../../components/ProjectsSelector/ProjectsSelector';
+import ProjectsSelector from '../../components/ProjectsSelector/ProjectsSelector';
+import ProjectSlider from '../../components/ProjectSlider/ProjectSlider';
 
 const Project  = ({ currentProject, setCurrentProject}) => {
   return (
@@ -14,7 +15,7 @@ const Project  = ({ currentProject, setCurrentProject}) => {
               <div className='project-main-left'>
                   <h1>{projectImports[currentProject].name}</h1>
                   <p>I was hired to build this landing page for a potential NFT Project. I love the art on this page, which is why I haven't...</p>
-                  {currentProject !== 2 && <button>View Project</button>}
+                  {currentProject !== 2 && <button>View Website</button>}
               </div>
               <div className='project-main-right'>
                   <div className='project-main-right-image-container'>
@@ -22,7 +23,11 @@ const Project  = ({ currentProject, setCurrentProject}) => {
                   </div>
               </div>
             </div>
-            <ProjectsSlider 
+            <ProjectSlider currentProject={currentProject}
+                setCurrentProject={setCurrentProject}/>
+
+
+            <ProjectsSelector
                 currentProject={currentProject}
                 setCurrentProject={setCurrentProject}
             />

@@ -10,6 +10,11 @@ function App() {
   
   const [currentProject, setCurrentProject] = useState(0);
 
+  useEffect(() => {
+
+  },[currentProject] );
+
+
   return (
     <div className="App">
       <div className='main-container'>
