@@ -12,6 +12,7 @@ const ProjectSlider = ({ currentProject, setCurrentProject}) => {
 
     useEffect(() => {
         setNumSlides(projectImports[currentProject].images.length);
+        setCurrentSlide(1);
     },[currentProject] );
 
 

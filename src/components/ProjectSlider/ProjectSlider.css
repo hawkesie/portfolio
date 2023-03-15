@@ -22,6 +22,9 @@
 .project-slider-side-image img{
     width: 100%;
     border-radius: 15px;
+    -moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
 }
 
 .project-slider-center-image{
@@ -35,6 +38,9 @@
     width: 130%;
     border-radius: 15px;
     z-index: 3;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .project-slider-button-container{
@@ -42,4 +48,10 @@
     align-items: center;
     justify-content: center;
     flex: 0.1;
+}
+
+.project-slider-button-container img{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
