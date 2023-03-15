@@ -1,6 +1,6 @@
 import React from 'react'
 import {imports} from './imports';
-import './ProjectsSlider.css'
+import './ProjectsSelector.css'
 
 const ProjectsSlider = ({ currentProject, setCurrentProject}) => {
   return (   

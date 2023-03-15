@@ -1,13 +1,12 @@
 import React from 'react'
 import './Portfolio.css'
 import GeishaMain from '../../images/mysites/geisha-main.png';
-import ProjectsSlider from '../../components/ProjectsSlider/ProjectsSlider';
+import ProjectsSlider from '../../components/ProjectsSelector/ProjectsSelector';
 import { useEffect, useRef, useState } from "react";
-import {imports} from '../../components/ProjectsSlider/imports';
+import {imports} from '../../components/ProjectsSelector/imports';
 
-const Portfolio = () => {
+const Portfolio  = ({ currentProject, setCurrentProject}) =>{
 
-  const [currentProject, setCurrentProject] = useState(2);
 
   return (
     <div className='portfolio-container'>
@@ -22,7 +21,7 @@ const Portfolio = () => {
               <div className='portfolio-main-left'>
                   <h2>{imports[currentProject].name}</h2>
                   <p>I was hired to build this landing page for a potential NFT Project. I love the art on this page, which is why I haven't...</p>
-                  <button>View Project</button>
+                  <button>View Website</button>
               </div>
               <div className='portfolio-main-right'>
                   <div className='portfolio-main-right-image-container'>
