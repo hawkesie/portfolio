@@ -1,7 +1,7 @@
 
 import './App.css';
 import { useEffect, useRef, useState } from "react";
-import Header from './containers/Header/Header'
+import Header from './containers/Header/header'
 import Portfolio from './containers/Portfolio/Portfolio';
 
 
