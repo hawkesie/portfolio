@@ -23,13 +23,15 @@ export const projectImports = [
         name:'Geishas',
         image: GeishasImg,
         monitorImage: GeishaMonitorImg,
-        images: [geishaSlide1,geishaSlide2,geishaSlide3,geishaSlide4]
+        images: [geishaSlide1,geishaSlide2,geishaSlide3,geishaSlide4],
+        website: 'https://main.d332phldntddfe.amplifyapp.com/'
     },
     {
         name:'Staxy',
         image: StaxyImg,
         monitorImage: StaxyMonitorImg,
-        images: [staxySlide1, staxySlide2, staxySlide3, staxySlide4]
+        images: [staxySlide1, staxySlide2, staxySlide3, staxySlide4],
+        website:'https://main.d1t87ixh50zlnh.amplifyapp.com/'
     },
     {
         name:'Lucky Shogun',

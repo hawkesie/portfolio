@@ -134,6 +134,12 @@
 }
 
 @media screen and (max-width: 1050px) {
+
+    .header-container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
     .header-main-container{
         flex-direction: column;
         padding-bottom: 4rem;
@@ -168,8 +174,6 @@
 @media screen and (max-width: 650px) {
 
     .header-container{
-        padding-left: 4rem;
-        padding-right: 4rem;
         padding-top: 2.25rem;
     }
 

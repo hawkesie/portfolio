@@ -24,7 +24,7 @@ const Project  = ({ currentProject, setCurrentProject}) => {
               <div className='project-main-left'>
                   <h1>{projectImports[currentProject].name}</h1>
                     <p>I was hired to build this landing page for a potential NFT Project. I love the art on this page, which is why I haven't compressed any of the images for optimization.</p>
-                  {currentProject !== 2 && <button>View Website</button>}
+                  {currentProject !== 2 && <a href={projectImports[currentProject].website} target='_blank'>View Website</a>}
               </div>
               <div className='project-main-right'>
                   <div className='project-main-right-image-container'>

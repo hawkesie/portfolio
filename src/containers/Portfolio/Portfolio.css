@@ -113,6 +113,7 @@
     padding-bottom: 15px;
     color: #060606;
     margin-top: 2.8rem;
+    cursor: pointer;
 }
 
 .portfolio-main-right-image-container{
@@ -182,6 +183,15 @@
 
     .portfolio-container p{
         width: 100%;
+    }
+
+    .portfolio-main-left button{
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.02em;
+            width: 180px;
+            padding-top: 15px;
+            padding-bottom: 15px;
     }
 }
 

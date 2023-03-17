@@ -55,3 +55,24 @@ user-select: none;
     -webkit-user-select: none;
     user-select: none;
 }
+
+@media screen and (max-width: 1050px) {
+
+    .project-slider-side-image{
+        flex: 0;
+    }
+
+
+    .project-slider-center-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 2;
+    }
+    
+    .project-slider-center-image img{
+        width: 100%;
+        border-radius: 15px;
+        z-index: 3;
+    }
+}
