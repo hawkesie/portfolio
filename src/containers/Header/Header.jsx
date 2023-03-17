@@ -19,7 +19,6 @@ const Header = () => {
         <div className='header-bottom-right-dots'>
           <img src={BottomRightDots} alt='dots'/>
         </div>
-        <Navbar />
         <div className='header-main-container'>
           <div className='header-content'>
             <h1>Perfectly<span style={{color:"#F8CA13"}}>-</span>coded software made available</h1> 

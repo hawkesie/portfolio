@@ -5,7 +5,7 @@ import ProjectsSlider from '../../components/ProjectsSelector/ProjectsSelector';
 import { useEffect, useRef, useState } from "react";
 import {imports} from '../../components/ProjectsSelector/imports';
 
-const Portfolio  = ({ currentProject, setCurrentProject}) =>{
+const Portfolio  = ({ currentProject, setCurrentProject, showProject, setShowProject}) =>{
 
 
   return (
@@ -21,7 +21,7 @@ const Portfolio  = ({ currentProject, setCurrentProject}) =>{
               <div className='portfolio-main-left'>
                   <h2>{imports[currentProject].name}</h2>
                   <p>I was hired to build this landing page for a potential NFT Project. I love the art on this page, which is why I haven't...</p>
-                  <button>View Website</button>
+                  <button onClick={() => setShowProject(currentProject)}>View Project</button>
               </div>
               <div className='portfolio-main-right'>
                   <div className='portfolio-main-right-image-container'>

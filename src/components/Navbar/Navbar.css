@@ -1,5 +1,8 @@
 .navbar-container{
     display: flex;
+    position: absolute;
+    padding-left: 7.8rem;
+    padding-top: 2.25rem;
 }
 
 .navbar-container a{
@@ -14,9 +17,14 @@
     letter-spacing: 0.02em;
     opacity: 0.6;
     z-index: 4;
+    cursor: pointer;
 }
 
-.navbar-container a:first-child{
-    color: #F8CA13;
-    opacity: 1;
+.navbar-current-tab{
+    color: #F8CA13 !important;
+    opacity: 1 !important;
+}
+
+.navbar-container .light-color{
+    color:#fafafa;
 }
