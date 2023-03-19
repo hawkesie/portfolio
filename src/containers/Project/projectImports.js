@@ -23,21 +23,26 @@ export const projectImports = [
         name:'Geishas',
         image: GeishasImg,
         monitorImage: GeishaMonitorImg,
-        images: [geishaSlide1,geishaSlide2,geishaSlide3,geishaSlide4],
-        website: 'https://main.d332phldntddfe.amplifyapp.com/'
+        images: [GeishasImg,geishaSlide1,geishaSlide2,geishaSlide3,geishaSlide4],
+        website: 'https://main.d332phldntddfe.amplifyapp.com/',
+        description: 'I was hired to build this website as a landing page for a potential NFT project.',
+        gitLink:'https://github.com/hawkesie/Geishas'
     },
     {
         name:'Staxy',
         image: StaxyImg,
         monitorImage: StaxyMonitorImg,
-        images: [staxySlide1, staxySlide2, staxySlide3, staxySlide4],
-        website:'https://main.d1t87ixh50zlnh.amplifyapp.com/'
+        images: [StaxyImg,staxySlide1, staxySlide2, staxySlide3, staxySlide4],
+        website:'https://main.d1t87ixh50zlnh.amplifyapp.com/',
+        description: 'I was asked to build this website as a prototype for a gaming website that aimed to be similar to hypedrop.com. This project never eventualized. ',
+        gitLink: 'https://github.com/hawkesie/Staxy'
     },
     {
         name:'Lucky Shogun',
         image: LSImg,
         monitorImage: LsMonitorImg,
-        images: [lsSlide1, lsSlide2, lsSlide3,lsSlide4]
+        images: [lsSlide2,lsSlide1, lsSlide3,lsSlide4],
+        description: 'I started working for and eventually became the main frontend developer for this online crypto casino. I worked for this company for almost a year until it ceased operations in late 2022. '
     }
     
 

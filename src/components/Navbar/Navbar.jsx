@@ -10,7 +10,7 @@ const Navbar = ({currentProject, setCurrentProject, showProject, setShowProject}
     <div className='navbar-container'>
             <a onClick={() => setShowProject(4)} className={showProject === 4 ? 'navbar-current-tab dark-color' : 'light-color'} >Home</a>
             <a onClick={() => setShowProject(currentProject)} className={showProject !== 4 ? 'navbar-current-tab light-color' : 'dark-color'}>Portfolio</a>
-            <a className={showProject !== 4 ? 'light-color' : 'dark-color'}>Contact me</a>
+            {/* <a className={showProject !== 4 ? 'light-color' : 'dark-color'}>Contact me</a> */}
     </div>
   )
 }

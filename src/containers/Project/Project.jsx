@@ -5,6 +5,7 @@ import ProjectsSelector from '../../components/ProjectsSelector/ProjectsSelector
 import ProjectSlider from '../../components/ProjectSlider/ProjectSlider';
 import Navbar from '../../components/Navbar/Navbar';
 import { useEffect, useRef, useState } from "react";
+import GitHubIcon from '../../images/Icons/github.png'
 
 
 
@@ -23,12 +24,15 @@ const Project  = ({ currentProject, setCurrentProject}) => {
           <div className='project-main-container'>
               <div className='project-main-left'>
                   <h1>{projectImports[currentProject].name}</h1>
-                    <p>I was hired to build this landing page for a potential NFT Project. I love the art on this page, which is why I haven't compressed any of the images for optimization.</p>
-                  {currentProject !== 2 && <a href={projectImports[currentProject].website} target='_blank'>View Website</a>}
+                    <p>{projectImports[currentProject].description}</p>
+                    <div className='project-main-left-links'>
+                  {currentProject !== 2 && <a href={projectImports[currentProject]?.website} target='_blank' className='project-website-link'>View Website</a>}
+                  {currentProject !== 2 && <a href={projectImports[currentProject]?.gitLink} target='_blank' className='project-github-link'><img src={GitHubIcon} alt='git'/></a>}
+                  </div>
               </div>
               <div className='project-main-right'>
                   <div className='project-main-right-image-container'>
-                    <img src={projectImports[currentProject].monitorImage} alt='main-img'/>
+                    <img src={projectImports[currentProject]?.monitorImage} alt='main-img'/>
                   </div>
               </div>
             </div>
@@ -43,7 +47,7 @@ const Project  = ({ currentProject, setCurrentProject}) => {
 
         </div>
         <div className='portfolio-background-container'>
-          <img src={projectImports[currentProject].image} alt='dots'/>
+          <img src={projectImports[currentProject]?.image} alt='dots'/>
         </div>
 
     </div>

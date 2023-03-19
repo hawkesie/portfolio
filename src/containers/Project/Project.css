@@ -102,7 +102,14 @@
     flex: 1;
 }
 
-.project-main-left a{
+.project-main-left-links{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 2.8rem;
+}
+
+.project-main-left .project-website-link{
     background: #F8CA13;
     border-radius: 15px;
     font-family: 'Inter';
@@ -115,10 +122,19 @@
     padding-top: 15px;
     padding-bottom: 15px;
     color: #060606;
-    margin-top: 2.8rem;
     text-align: center;
     cursor: pointer;
     text-decoration: none;
+}
+
+
+.project-github-link{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.project-main-left a img{
+    width: 100%;
 }
 
 .project-main-right-image-container{
@@ -197,7 +213,7 @@
 
 @media screen and (max-width: 650px) {
 
-    .project-main-left a{
+    .project-main-left .project-website-link{
         font-size: 18px;
         line-height: 22px;
         letter-spacing: 0.02em;

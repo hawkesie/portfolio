@@ -4,6 +4,7 @@ import {projectImports} from '../../containers/Project/projectImports';
 import LeftArrow from '../../images/Icons/left-arrow.png';
 import RightArrow from '../../images/Icons/right-arrow.png';
 import { useEffect, useRef, useState } from "react";
+import slideright from '../../transitions/slideright'
 
 const ProjectSlider = ({ currentProject, setCurrentProject}) => {
 
@@ -15,6 +16,10 @@ const ProjectSlider = ({ currentProject, setCurrentProject}) => {
         setCurrentSlide(1);
     },[currentProject] );
 
+    useEffect(() => {
+        slideright();
+    },[currentSlide] );
+
 
   return (
     <div className='project-slider-container'>
@@ -22,13 +27,13 @@ const ProjectSlider = ({ currentProject, setCurrentProject}) => {
             <div className='project-slider-button-container'>
                 {currentSlide >= 1 && <img src={LeftArrow} onClick={() => setCurrentSlide(currentSlide-1)}/>}
             </div>
-            <div className='project-slider-side-image'>
+            <div className='project-slider-side-image slide-right'>
             {currentSlide >= 1 && <img src={projectImports[currentProject].images[currentSlide-1]} alt='slide' onClick={() => setCurrentSlide(currentSlide-1)} />}
             </div>
-            <div className='project-slider-center-image'>
+            <div className='project-slider-center-image slide-right'>
                 <img src={projectImports[currentProject].images[currentSlide]} alt='slide' />
             </div>
-            <div className='project-slider-side-image'>
+            <div className='project-slider-side-image slide-right'>
                 {currentSlide < numSlides-1 &&   <img src={projectImports[currentProject].images[currentSlide+1]} alt='slide' onClick={() => setCurrentSlide(currentSlide+1)}/>}
             </div>
             <div className='project-slider-button-container'>

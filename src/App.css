@@ -9,6 +9,32 @@ h1,h2,h3,h4,h5,p{
   
 }
 
+.reveal{
+  position: relative;
+  transform: translateY(300px);
+  opacity: 0;
+  transition: 1.5s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+} 
+
+
+/* .slide-right{
+  position: relative;
+  transform: translateX(300px);
+  opacity: 1;
+  transition: 1.5s all ease;
+}
+
+.slide-right.active{
+  transform: translateX(0);
+  opacity: 1;
+}  */
+
+
 h1{
   font-family: 'Archivo Black';
   font-style: normal;
