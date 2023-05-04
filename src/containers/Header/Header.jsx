@@ -26,7 +26,7 @@ const Header = () => {
             <h3>Hello<span style={{color:"#F8CA13"}}>,</span> I'm <span style={{fontWeight:"800"}}>Jordan</span></h3>
             <p><img src={EducationImg} alt='edu'/>Graduated with a Bachelor of Computer Science with Academic Honors from The Queensland University of Technology in 2017.</p>
             <p><img src={BriefcaseImg} alt='work'/>Since then, I have worked for DXC Technology as an Application Developer and for the past two years have been working as a Frontend Web Developer.</p>
-            <p><img src={ToolsImg} alt='work'/>HTML, CSS, JavaScript, React, ExpressJs</p>
+            <p><img src={ToolsImg} alt='work'/>JavaScript, ReactJs, NextJs, ExpressJs, SQL, MongoDB, HTML, CSS, Git</p>
             {/*  NextJs, TypeScript, Redux, Tailwind CSS, API Integration */}
             <div className='header-contact-container'>
               <div className='header-contact-item'>
