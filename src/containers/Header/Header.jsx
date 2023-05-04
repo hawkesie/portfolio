@@ -22,11 +22,12 @@ const Header = () => {
         </div>
         <div className='header-main-container'>
           <div className='header-content'>
-            <h1>explore <span style={{color:"#F8CA13"}}>my</span> portfolio</h1> 
+            <h1>Full Stack Web <span style={{color:"#F8CA13"}}>-</span> Developer</h1> 
             <h3>Hello<span style={{color:"#F8CA13"}}>,</span> I'm <span style={{fontWeight:"800"}}>Jordan</span></h3>
             <p><img src={EducationImg} alt='edu'/>Graduated with a Bachelor of Computer Science with Academic Honors from The Queensland University of Technology in 2017.</p>
             <p><img src={BriefcaseImg} alt='work'/>Since then, I have worked for DXC Technology as an Application Developer and for the past two years have been working as a Frontend Web Developer.</p>
             <p><img src={ToolsImg} alt='work'/>JavaScript, ReactJs, NextJs, ExpressJs, SQL, MongoDB, HTML, CSS, Git</p>
+            <p><img src={BriefcaseImg} alt='work'/>I am currently developing an unboxing website using a MERN Stack. I am very proud of what I have built so far and am happy to allow potential employers to view the code.</p>
             {/*  NextJs, TypeScript, Redux, Tailwind CSS, API Integration */}
             <div className='header-contact-container'>
               <div className='header-contact-item'>
