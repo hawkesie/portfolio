@@ -28,7 +28,7 @@ const Header = () => {
             <p><img src={BriefcaseImg} alt='work'/>Since then, I have worked for DXC Technology as an Application Developer and for the past two years have been working as a Frontend Web Developer.</p>
             <p><img src={ToolsImg} alt='work'/>JavaScript, ReactJs, NextJs, ExpressJs, SQL, MongoDB, HTML, CSS, Git</p>
             <p><img src={BriefcaseImg} alt='work'/>I am currently developing an mystery box site using a MERN Stack. I am very proud of what I have built so far and am happy to allow potential employers to view the code. 
-            You can view the current progress <a href='https://unboxing.onrender.com/' target='_blank' >here</a>.</p>
+            You can view the current progress <a href='https://unboxing.onrender.com/' style={{color:"#F8CA13"}} target='_blank' >here</a>.</p>
             {/*  NextJs, TypeScript, Redux, Tailwind CSS, API Integration */}
             <div className='header-contact-container'>
               <div className='header-contact-item'>
@@ -37,7 +37,7 @@ const Header = () => {
               </div>
               <div className='header-contact-item'>
                 <img src={WhatsappImg} alt='gmail'/>
-                <address>+6287840521714</address>
+                <address>+6285934830131</address>
               </div>
             </div>
 
