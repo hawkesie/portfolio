@@ -16,6 +16,9 @@ import lsSlide1 from "../../images/mysites/slides/ls/slide1.png";
 import lsSlide2 from "../../images/mysites/slides/ls/slide2.png";
 import lsSlide3 from "../../images/mysites/slides/ls/slide3.png";
 import lsSlide4 from "../../images/mysites/slides/ls/slide4.png";
+import tradingSlide1 from "../../images/mysites/slides/trading/trading1.png";
+import tradingSlide2 from "../../images/mysites/slides/trading/trading2.png";
+import tradingSlide3 from "../../images/mysites/slides/trading/trading3.png";
 
 export const projectImports = [
   {
@@ -51,5 +54,13 @@ export const projectImports = [
     images: [lsSlide2, lsSlide1, lsSlide3, lsSlide4],
     description:
       "I started working for and eventually became the main frontend developer for this online crypto casino. I worked for this company for almost a year until it ceased operations in late 2022. ",
+  },
+  {
+    name: "Futures Trading App",
+    image: tradingSlide1,
+    monitorImage: tradingSlide1,
+    images: [tradingSlide1, tradingSlide2, tradingSlide3],
+    description:
+      "I developed the front-end of a futures trading app for a client using React.",
   },
 ];

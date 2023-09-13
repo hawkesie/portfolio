@@ -26,8 +26,8 @@ const Project  = ({ currentProject, setCurrentProject}) => {
                   <h1>{projectImports[currentProject].name}</h1>
                     <p>{projectImports[currentProject].description}</p>
                     <div className='project-main-left-links'>
-                  {currentProject !== 2 && <a href={projectImports[currentProject]?.website} target='_blank' className='project-website-link'>View Website</a>}
-                  {currentProject !== 2 && <a href={projectImports[currentProject]?.gitLink} target='_blank' className='project-github-link'><img src={GitHubIcon} alt='git'/></a>}
+                  {(currentProject !== 2 && currentProject !==3) && <a href={projectImports[currentProject]?.website} target='_blank' className='project-website-link'>View Website</a>}
+                  {(currentProject !== 2 && currentProject !==3) && <a href={projectImports[currentProject]?.gitLink} target='_blank' className='project-github-link'><img src={GitHubIcon} alt='git'/></a>}
                   </div>
               </div>
               <div className='project-main-right'>
